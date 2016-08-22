@@ -1,0 +1,29 @@
+Snowfoxs
+
+ASCII TABLE
+**************************************************
+- ASCII_TABLE : int[]
+- CHAR_TABLE : char[]
+- length : int
+- position : int
+- userInput : String
+- userArray : char[]
+- REGEX : String
+- CHARACTERS : String
+- hashTable : HashTable()
+- hashTable : ArrayList<Integer>
+**************************************************
++ AsciiTableClass()
++ HashTable()
++ getUserInput() : String
++ setUserInput(sentInput : String) : String
++ countInput(userInput : String) : int
++ convertInput(userInput : String) : char[]
++ matchMachine(userArray : char[], length : int) : int[]
++ printIndexs(userArray : char[], length : int) : void
++ sortArray() : void
++ addToTable(arrayData : int[]) : void
++ displayHashTable() : void
++ getSize() : int
++ calcHash(arrayData : int[]) : int
++ printHashTable() : void

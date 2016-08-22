@@ -1,0 +1,69 @@
+Snowfoxs
+
+Vehicle
+**************************************************
+- manufacturer : String
+- cylinders : int
+- owner : Person
+**************************************************
++ Vehicle(passedManufacturer : String, passedCylinders : int, passedOwner: Person)
++ toString() : String
++ equals(other : Vehicle) : boolean
+**************************************************
+					^
+					|
+					|
+					|
+Truck
+**************************************************
+- loadCapacity : double
+- towingCapacity : int
+**************************************************
++ Truck(passedManufacturer : String, passedCylinders : int, passedOwner : Person, passedLoadCapacity : double, passedTowingCapacity : int)
++ toString() : String
++ equals(other : Truck) : boolean
+**************************************************
+
+
+Person
+**************************************************
+- name : String
+**************************************************
++ toString() : String
++ equals(other : person) : boolean
+**************************************************
+
+
+EmptyStringException
+**************************************************
++ EmptyStringException()
+**************************************************
+
+
+NegativeValueException
+**************************************************
++ NegativeValueException()
++ NegativeValueException(number : int)
++ NegativeValueException(number : double)
+**************************************************
+
+
+OverTowingCapacityException
+**************************************************
++ OverTowingCapacityException()
++ OverTowingCapacityException(load : int)
+**************************************************
+
+
+OverLoadCapacityException
+**************************************************
++ OverLoadCapacityException()
++ OverLoadCapacityException(load : double)
+**************************************************
+
+
+CylinderException
+**************************************************
++ CylinderException()
++ CylinderException(cylinders : int)
+**************************************************

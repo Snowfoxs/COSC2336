@@ -1,0 +1,20 @@
+Snowfoxs
+
+ASCII TABLE
+**************************************************
+- ASCII_TABLE : int[]
+- CHAR_TABLE : char[]
+- length : int
+- position : int
+- userInput : String
+- userArray : char[]
+- REGEX : String
+- CHARACTERS: String
+**************************************************
++ AsciiTableClass()
++ getUserInput() : String
++ setUserInput(sentInput : String) : String
++ countInput(userInput : String) : int
++ convertInput(userInput : String) : char[]
++ matchMachine(userArray : char[], length : int) : int[]
++ printIndexs(userArray : char[], length : int) : void
